@@ -8,6 +8,13 @@ tags:
   - typescript
 ---
 
+## 💁‍♀️ How to use
+
+- [Provision a Postgres container on Railway](https://dev.new) and follow the [Getting Started](https://docs.railway.app/getting-started) docs or (TODO explain scenario where is already initialized)
+- Connect to your Railway project with `railway link`
+- Migrate the database `railway run yarn migrate:dev`
+- Run the NextJS app ✨ with Postgres connection variables ✨ `railway run yarn dev` (`yarn dev` alone will not let you connect - see "[Run and Develop Your App](https://docs.railway.app/getting-started)" in Railway docs)
+
 # NextJS Prisma Example
 
 This example is a [NextJS](https://nextjs.org/) todo app that uses
@@ -21,13 +28,6 @@ This example is a [NextJS](https://nextjs.org/) todo app that uses
 - NextJS
 - Postgres
 - TypeScript
-
-## 💁‍♀️ How to use
-
-- [Provision a Postgres container on Railway](https://dev.new)
-- Connect to your Railway project with `railway link`
-- Migrate the database `railway run yarn migrate:dev`
-- Run the NextJS app `railway run yarn dev`
 
 ## 📝 Notes
 
